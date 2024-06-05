@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Viga&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Viga', sans-serif;
+}
+
+/*navbar*/
+.nav-item .nav-link{
+font-size: 20px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.btn-danger{
+    background-color: #bd0001;
+    border-radius: 10px;
+    border-color: #bd0001;
+    padding: 10px 35px;
+    color: white;
+}
+
+.btn-outline-danger{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: #bd0001;
+    padding: 10px 35px;
+    color: #bd0001;
+}
+
+.scroll-nav-active{
+    background-color: white;
+    /* border-bottom:1px solid #bd0001; */
+    box-shadow: 1px 1px 11px -1px rgba(1, 1, 1, 0.08);
+}
+
+.text-nav-active {
+    color: black;
+}
+
+#santri {
+    background-image: url("../image/bilqolam.1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+.santri-title {
+    padding-top: 200px;
+    color: rgb(232, 11, 11);
+    
+}
+
+.santri-text{
+    font-size: 60px;
+    font-weight: 600px;
+}
+
+/* Responsive layar kecil 450 */
+@media screen and (min-width :450px){
+    .santri-text{
+        font: 35px;
+        font: 600;
+    }
+}
+
+/* Responsive layar kecil 550 */
+@media screen and (min-width :550px){
+    .santri-text{
+        font: 35px;
+        font: 600;
+    }
+}
+
+@media screen and (min-width :800px){
+    .santri-text{
+        font: 65px;
+        font: 600;
+    }
+}
+
+
+.stripe {
+    height: 5px;
+    width: 40px;
+    background-color: #bd0001;
+}
+
+/* video */
+.video {
+    background-image: url("../image/foto-pondok.png");
+    background-color: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+/* foto */
+/* Parallax Backgraund */
+
+.section-foto {
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax {
+    background-image: url("../image/foto-pondok.png");
+}
+
+.stripe-putih {
+    height: 5px;
+    width: 40px;
+    background-color: #ffffff;
+}
